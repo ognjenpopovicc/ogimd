@@ -1818,3 +1818,90 @@ textarea.w-select {
 .wf-layout-layout {
   display: grid;
 }
+
+.new-cta-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: -30px;
+}
+
+.new-cta-button {
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  color: #bf3131;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+  font-family: Open Sans, sans-serif;
+  line-height: 1.5;
+}
+
+.new-cta-button span {
+  position: absolute;
+  transition: all 300ms ease-in-out;
+  font-size: 44px;
+  line-height: 0.9;
+}
+
+.new-cta-button:hover span {
+  color: #7d0a0a;
+  transform: translateX(25px);
+}
+
+.new-cta-button:hover {
+  color: #7d0a0a;
+}
+
+@media (max-width: 768px) {
+  .new-cta-button-container {
+    margin-top: 0;
+  }
+
+  .new-cta-button {
+    font-size: 30px;
+    line-height: 1.5;
+  }
+
+}
+
+@media (max-width: 400px) {
+  .new-cta-button-container {
+    margin-top: 0;
+  }
+
+  .new-cta-button {
+    font-size: 24px;
+    line-height: 1;
+  }
+
+  .new-cta-button span {
+    font-size: 28px;
+    line-height: 0.7;
+  }
+
+}
+
+
+/*
+.call-to-action {
+  width: fit-content;
+  margin: 0 auto;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  color: #000;
+}
+@media screen and (min-width: 992px) {
+  .call-to-action .cta-button-menu {
+    display: none;
+  }
+  
+}*/
