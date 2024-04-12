@@ -1968,7 +1968,7 @@
 
   .h1 {
     margin-bottom: 40px;
-    font-size: 44px;
+    font-size: 36px;
     line-height: 52px;
   }
 
@@ -2106,8 +2106,8 @@
   }
 
   .button-link {
-    padding: 10px 40px;
-    font-size: 32px;
+    padding: 10px 20px;
+    font-size: 22px;
     line-height: 38px;
   }
 
@@ -2115,6 +2115,18 @@
     order: 1;
   }
 }
+
+@media screen and (max-width: 402px) {
+  .hero-section {
+    height: auto;
+  }
+
+  .hero-section-container {
+    margin-bottom: 40px;
+  }
+}
+
+
 
 #w-node-_191fad79-14ae-3434-fc69-df63e583c30d-92c8172f {
   grid-template-rows: auto auto;
