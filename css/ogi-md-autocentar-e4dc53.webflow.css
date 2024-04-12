@@ -2116,7 +2116,15 @@
   }
 }
 
-@media screen and (max-width: 402px) {
+@media screen and (max-width: 450px) {
+  .h1 {
+    font-size: 28px;
+  }
+
+  .white-text {
+    font-size: 18px;
+  }
+
   .hero-section {
     height: auto;
   }
