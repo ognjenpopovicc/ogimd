@@ -1833,31 +1833,31 @@ textarea.w-select {
   margin: 0;
   padding: 0;
   background-color: transparent;
-  color: #bf3131;
+  color: #7d0a0a;
   text-decoration: none;
   font-size: 30px;
   font-weight: 400;
   text-align: center;
   cursor: pointer;
-  transition: all 300ms ease-in-out;
+  transition: all 200ms ease-in-out;
   font-family: Open Sans, sans-serif;
   line-height: 1.5;
 }
 
 .new-cta-button span {
   position: absolute;
-  transition: all 300ms ease-in-out;
+  transition: all 200ms ease-in-out;
   font-size: 44px;
   line-height: 0.9;
 }
 
 .new-cta-button:hover span {
-  color: #7d0a0a;
+  color: #bf3131;
   transform: translateX(25px);
 }
 
 .new-cta-button:hover {
-  color: #7d0a0a;
+  color: #bf3131;
 }
 
 @media (max-width: 768px) {
